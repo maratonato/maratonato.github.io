@@ -7,9 +7,27 @@
 
     {% include sidebar.html %}
 
-    <div class="content container">
+    <div class="content container" id="content">
       {{ content }}
+      
     </div>
 
+    <script src="//code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script src="//code.jquery.com/ui/1.11.4/jquery-ui.min.js"></script>
+    
+    <script>
+    $('.arrow').click(function() {   
+      var panel = $('.sidebar');
+      if (panel.hasClass("visible")) {
+         panel.removeClass('visible').animate({'left':'-270px'});
+         $('#content').animate({ 'margin-left':'80px'});
+         $('.arrow i').removeClass('fa-arrow-left').addClass('fa-arrow-right');
+      } else {panel.addClass('visible').animate({'left':'0px'});
+         $('#content').animate({'margin-left':'350px'});
+         $('.arrow i').removeClass('fa-arrow-right').addClass('fa-arrow-left');
+      } 
+      return false; 
+    });
+    </script>
   </body>
 </html>
