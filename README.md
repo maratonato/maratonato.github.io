@@ -3,7 +3,7 @@ His official page of Programming Marathon in Tocantins.
 
 [![Join the chat at https://gitter.im/maratonato/maratonato.github.io](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/maratonato/maratonato.github.io?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
-<p align="center">![Screenshot](https://raw.githubusercontent.com/maratonato/maratonato.github.io/master/images/icpc_logo.png)</p>
+<p align="center">![Screenshot]({{ site.baseurl }}/images/icpc_logo.png)</p>
 
 ## How it works?
 
