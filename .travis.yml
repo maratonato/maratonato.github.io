@@ -1,6 +1,6 @@
 language: ruby
 rvm:
-  - 2.1.1
+  - 2.2.3
 
 install:
   - export PATH=$HOME/.local/bin:$PATH
@@ -9,9 +9,8 @@ install:
   - gem install jekyll-paginate
   - gem install jekyll-gist
   - gem install redcarpet
-  - apt-get install python-pygments
 script:
-  - jekyll build
+  - jekyll build --incremental
 
 branches:
   only:

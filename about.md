@@ -4,7 +4,7 @@ title: Sobre
 permalink: /sobre/
 ---
 
-A Maratona de Programação destina-se a alunos de cursos de graduação e início de pós-graduação na área de Computação e afins (Ciência da Computação, Engenharia de Computação, Sistemas de Informação, Matemática, etc). A competição promove nos alunos a criatividade, a capacidade de trabalho em equipe, a busca de novas soluções de software e a habilidade de resolver problemas sob pressão. De ano para ano temos observado que as instituições e principalmente as grandes empresas da área têm valorizado os alunos que participam da maratona.
+A Maratona de Programação destina-se a alunos de cursos de graduação e início de pós-graduação na área de Computação e afins (Ciência da Computação, Engenharia de Computação, Sistemas de Informação, Matemática, etc). A competição promove nos alunos a criatividade, a capacidade de trabalho em equipe, a busca de novas soluções de software e a habilidade de resolver problemas sob pressão. De ano para ano temos observado que as instituições e principalmente as grandes empresas da área têm valorizado os alunos q...(line truncated)...
 
 Todos os integrantes devem ser alunos devidamente matriculados na instituição. Os times devem ser inscritos pelo “coach”, o mesmo deve ser um docente do curso, ou alguém recomenda por um docente para esta função. Um mesmo “coach” pode ser responsável por mais de uma equipe.
 
