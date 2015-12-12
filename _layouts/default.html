@@ -4,19 +4,20 @@
   {% include head.html %}
 
   <body>
-
+    {% include forkme.html %}
     {% include sidebar.html %}
+    <div class="fakeloader"></div>
 
     <div class="content container" id="content">
       {{ content }}
-      
     </div>
 
     <script src="//code.jquery.com/jquery-2.1.4.min.js"></script>
     <script src="//code.jquery.com/ui/1.11.4/jquery-ui.min.js"></script>
-    
+    <script src="{{ site.baseurl }}/public/js/fakeLoader.min.js"></script>
+
     <script>
-    $('.arrow').click(function() {   
+    $('.arrow').click(function() {
       var panel = $('.sidebar');
       if (panel.hasClass("visible")) {
          panel.removeClass('visible').animate({'left':'-270px'});
@@ -26,8 +27,18 @@
          $('#content').animate({'margin-left':'350px'});
          $('.arrow i').removeClass('fa-arrow-right').addClass('fa-arrow-left');
       }
-      return false; 
+      return false;
     });
+    </script>
+
+    <script>
+           $(document).ready(function(){
+               $(".fakeloader").fakeLoader({
+                   timeToHide:10  00,
+                   bgColor:"#b80c00",
+                   spinner:"spinner1"
+               });
+           });
     </script>
   </body>
 </html>
