@@ -9,6 +9,7 @@ install:
   - gem install jekyll-paginate
   - gem install jekyll-gist
   - gem install redcarpet
+  - apt-get install python-pygments
 script:
   - jekyll build
 
