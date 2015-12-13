@@ -1,9 +1,9 @@
 # ACM ICPC at Tocantins [![Build Status](https://travis-ci.org/maratonato/maratonato.github.io.svg)](https://travis-ci.org/maratonato/maratonato.github.io)
-His official page of Programming Marathon in Tocantins.
+This is the official page of Programming Marathon in Tocantins.
 
 [![Join the chat at https://gitter.im/maratonato/maratonato.github.io](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/maratonato/maratonato.github.io?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
-<p align="center">![Screenshot](http://maratonato.github.io/images/icpc_logo.png)</p>
+<p align="center">![Screenshot](images/screenshot-home.png)</p>
 
 ## How it works?
 
@@ -15,7 +15,7 @@ I use [Jekyll](http://jekyllrb.com/), a static generator in Ruby, to create this
 
 2. First fork repository in [MaratonaTO](https://github.com/maratonato/maratonato.github.io) repository.
 
-<p align="center">![Fork](http://helpdn.interfaceware.com/wp-content/uploads/2014/06/Screen-Shot-2014-06-02-at-8.49.52-AM.png)</p>
+<p align="center">![Fork](images/fork.png)</p>
 
 3. Once installed these dependencies, open up the terminal and install [Jekyll](http://jekyllrb.com/) with the following command:
 
