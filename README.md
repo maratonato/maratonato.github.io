@@ -15,7 +15,7 @@ I use [Jekyll](http://jekyllrb.com/), a static generator in Ruby, to create this
 
 2. First fork repository in [MaratonaTO](https://github.com/maratonato/maratonato.github.io) repository.
 
-<p align="center">![Fork](http://helpdn.interfaceware.com/wp-content/uploads/2014/06/Screen-Shot-2014-06-02-at-8.49.52-AM.png)</p>
+<p align="center">![Fork](images/fork.png)</p>
 
 3. Once installed these dependencies, open up the terminal and install [Jekyll](http://jekyllrb.com/) with the following command:
 
