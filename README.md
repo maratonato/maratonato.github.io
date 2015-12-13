@@ -3,7 +3,7 @@ This is the official page of Programming Marathon in Tocantins.
 
 [![Join the chat at https://gitter.im/maratonato/maratonato.github.io](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/maratonato/maratonato.github.io?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
-<p align="center">![Screenshot](images/screenshot-home.png)</p>
+<p align="center"><img src="images/icpc_logo.png" /></p>
 
 ## How it works?
 
@@ -15,7 +15,7 @@ I use [Jekyll](http://jekyllrb.com/), a static generator in Ruby, to create this
 
 2. First fork repository in [MaratonaTO](https://github.com/maratonato/maratonato.github.io) repository.
 
-<p align="center">![Fork](images/fork.png)</p>
+<p align="center"><img src="images/fork.png" /></p>
 
 3. Once installed these dependencies, open up the terminal and install [Jekyll](http://jekyllrb.com/) with the following command:
 
