@@ -75,7 +75,7 @@ Aqui você encontrará uma lista de arquivos para cada post.
 
 Aqui você encontrará o template padrão da aplicação
 
-### _site
+### [_site](https://github.com/maratonato/maratonato.github.io/tree/master/_site)
 
 Aqui você encontrará todos os arquivos estáticos gerados pelo jekyll após a sua execução. No entanto, este diretório é desnecessário neste projeto, portanto ele é ignorado em ([.gitignore](https://github.com/maratonato/maratonato.github.io/blob/master/.gitignore)).
 
