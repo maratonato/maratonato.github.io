@@ -2,8 +2,6 @@
 
 Este é o repositório oficial do site da Maratona de Programação no estado do Tocantins.
 
-<p align="center"><img src="images/icpc_logo.png" /></p>
-
 ## Como funciona?
 
 Este projeto utiliza [Jekyll](http://jekyllrb.com/), que é um gerador de páginas estáticas em Ruby.
