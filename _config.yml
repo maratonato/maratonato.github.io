@@ -1,82 +1,174 @@
-#
-# This file contains configuration flags to customize your site
-#
 
-# Name of your site (displayed in the header)
-name: ACM ICPC at Tocantins
+# Site settings
 
-# Short bio or description (displayed in the header)
-description: Site da Maratona de Programação no Tocantins
+url: http://maratonato.github.io
+baseurl: ""
+google-tracking-id: "UA-71312825-1"
+force-https: False
 
-title: ACM ICPC at Tocantins
-tagline: Site da Maratona de Programação no Tocantins
+syntax-highlight: True
+
+# Sections shown in the index page
+
+pages_list:
+  About: 'about'
+  Blog: 'latest-post'
+  Timeline: 'timeline'
+  Contact: 'contact'
+
+web-app-mode: True
+
+# Icons for Chrome Web App mode https://developer.chrome.com/multidevice/android/installtohomescreen
+icon-36p: "/img/web-app/icon-36p.png"
+icon-48p: "/img/web-app/icon-48p.png"
+icon-72p: "/img/web-app/icon-72p.png"
+icon-96p: "/img/web-app/icon-96p.png"
+icon-144p: "/img/web-app/icon-144p.png"
+icon-192p: "/img/web-app/icon-192p.png"
+
+#############
+# HTML Head #
+#############
+
+author: "ACM ICPC @ Tocantins"
+lang: "en"
+title: "@maratonato"
+favicon: "/img/favicon.ico"
+description: "Site da Maratona de Programação no Tocantins"
+keywords: "maratona, programação, icpc, tocantins, brasil"
+
+################
+# Intro layout #
+################
+
+black-favicon: "/img/black-lab-glass.ico"
+background-img: "../img/intro-bg.jpg"
+me-img: "/img/icpc_logo.png"
+
+##############################
+# Dynamic Text on the header #
+##############################
+
+dynamic-typing: True
+shuffle: True # Shuffle the lines.
+loop: False
+loop-count: 1 # Set False for infinite loop, or set any number for finite loop.
+type-speed: 4
+start-delay: 2000
+delete-delay: 50000
+lines: # You can add HTML Tags in the Text
+  - text: "Este é o portal oficial da Maratona de Programação no Tocantins!"
+  - text: "Keep coding"
+
+########
+# Blog #
+########
+
+post-preview-words: 96
 
 paginate: 5
 
-github:
-  repo: https://github.com/maratonato/maratonato.github.io
-#
-# Flags below are optional
-#
+email-share: True
+fb-share: True
+twitter-share: True
+linkedin-share: True
+reddit-share: True
+google-plus-share: True
+tumblr-share: True
+pinterest-share: True
+pocket-share: True
+vkontakte-share: True
 
-# Includes an icon in the footer for each username you enter
-footer-links:
-  dribbble:
-  email:
-  facebook: maratonato
-  flickr:
-  github: maratonato
-  instagram:
-  linkedin:
-  pinterest:
-  rss: # just type anything here for a working RSS icon, make sure you set the "url" above!
-  twitter:
-  stackoverflow: # your stackoverflow profile, e.g. "users/50476/bart-kiers"
-  youtube:
-  googleplus:
+disqus-shortname: "maratonato"
 
-# Enter your Disqus shortname (not your username) to enable commenting on posts
-# You can find your shortname on the Settings page of your Disqus account
-disqus: maratonato
+###############
+# História #
+###############
 
-# Enter your Google Analytics web tracking code (e.g. UA-2110908-2) to activate tracking
-google_analytics: UA-71312825-1
+events:
+  - image: "/img/timeline/uft.jpg"
+    date: "[2009] UFT - Palmas, Tocantins"
+    description: "[Maratona de Programação - Fase Regional]()"
+  - image: "/img/timeline/uft.jpg"
+    date: "[2010] UFT - Palmas, Tocantins"
+    description: "[Maratona de Programação - Fase Regional]()"    
+  - image: "/img/timeline/udesc.jpg"
+    date: "[2010] UDESC - Joinville, Santa Catarina"
+    description: "[Maratona de Programação - Final Nacional]()"
+  - image: "/img/timeline/uft.jpg"
+    date: "[2011] UFT - Palmas, Tocantins"
+    description: "[Maratona de Programação - Fase Regional]()"
+  - image: "/img/timeline/uft.jpg"
+    date: "[2013] UFT - Palmas, Tocantins"
+    description: "[Maratona de Programação - Fase Regional]()"  
+  - image: "/img/timeline/uft.jpg"
+    date: "[2015] UFT - Palmas, Tocantins"
+    description: "[Maratona de Programação - Interna I]()"     
+  - image: "/img/timeline/uft.jpg"
+    date: "[2015] UFT - Palmas, Tocantins"
+    description: "[Maratona de Programação - Fase Regional]()" 
+  - image: "/img/timeline/ibta.png"
+    date: "[2015] IBTA - São Paulo, São Paulo"
+    description: "[Maratona de Programação - Fase Nacional]()"     
 
-# Your website URL (e.g. http://barryclark.github.io or http://www.barryclark.co)
-# Used for Sitemap.xml and your RSS feed
-url: http://maratonato.github.io
+# First image of the Career timeline
+timeline-img: "/img/timeline/default.png"
 
-# If you're hosting your site at a Project repository on GitHub pages
-# (http://yourusername.github.io/repository-name)
-# and NOT your User repository (http://yourusername.github.io)
-# then add in the baseurl here, like this: "/repository-name"
-baseurl:
+##################
+# Contact layout #
+##################
 
-#
-# !! You don't need to change any of the configuration flags below !!
-#
+email: "maratonato@gmail.com"
 
-markdown: redcarpet
-highlighter: pygments
-permalink: /:title/
+##################
+# Social Buttons #
+##################
 
-# The release of Jekyll Now that you're using
-version: v1.1.0
+social:
+  - title: "facebook"
+    url: "https://facebook.com/maratonato"
+  - title: "github"
+    url: "https://github.com/maratonato"
 
-# Set the Sass partials directory, as we're using @imports
+############
+# 404 page #
+############
+
+404-img: "/img/labtocat.png"
+
+###############
+# Highlighter #
+###############
+
+markdown: kramdown
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+  
+################################################################################
+
+# NB! Tread carefully if you want to change the variables below this point!
+
+# Sections shown in the index page
+
+pages_list:
+  Sobre: 'about'
+  Blog: 'latest-post'
+  História: 'timeline'
+  Contato: 'contact'
+
+# Exclusion list from the generated _site
+
+exclude: ["LICENSE", "README.md", "CONTRIBUTING", "CONTRIBUTORS", "scripts"]
+
+# Pagination path
+
+paginate_path: "blog/page:num/"
+
+# Enable minification SASS
+
 sass:
-  style: :expanded # You might prefer to minify using :compressed
+  style: compressed
 
-# Use the following plug-ins
 gems:
-  - jekyll-sitemap # Create a sitemap using the official Jekyll sitemap gem
   - jekyll-paginate
-  - jekyll-gist
-
-# Exclude these files from your production _site
-exclude:
-    - Gemfile
-    - Gemfile.lock
-    - LICENSE
-    - README.md
-    - CNAME
