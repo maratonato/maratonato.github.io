@@ -22,27 +22,27 @@ As seções estão divididas seguindo o critério:
 2015
 -----
 - Universidade Federal do Tocantins
-  - [I Maratona Interna de Programação](past_contests/uft/2015/interna)
-  - [Maratona de Programação - Fase Regional](past_contests/uft/2015/regional)
-  - [Maratona de Programação - Final Nacional](past_contests/uft/2015/nacional)
+  - [I Maratona Interna de Programação](past_contests/uft/2015/interna/interna01.html)
+  - [Maratona de Programação - Fase Regional](past_contests/uft/2015/regional/regional.html)
+  - [Maratona de Programação - Final Nacional](past_contests/uft/2015/nacional/nacional.html)
 
 2013
 -----
 - Universidade Federal do Tocantins
-  - [Maratona de Programação - Fase Regional](past_contests/uft/2013/interna1)
+  - [Maratona de Programação - Fase Regional](past_contests/uft/2013/regional/regional.html)
 
 2011
 -----
 - Universidade Federal do Tocantins
-  - [Maratona de Programação - Fase Regional](past_contests/uft/2011/interna1)
+  - [Maratona de Programação - Fase Regional](past_contests/uft/2011/regional/regional.html)
 
 2010
 -----
 - Universidade Federal do Tocantins
-  - [Maratona de Programação - Fase Regional](past_contests/uft/2010/interna1)
-  - [Maratona de Programação - Final Nacional](past_contests/uft/2010/nacional)
+  - [Maratona de Programação - Fase Regional](past_contests/uft/2010/regional/regional.html)
+  - [Maratona de Programação - Final Nacional](past_contests/uft/2010/nacional/nacional.html)
 
 2009
 -----
 - Universidade Federal do Tocantins
-  - [Maratona de Programação - Fase Regional](past_contests/uft/2009/interna1)
+  - [Maratona de Programação - Fase Regional](past_contests/uft/2009/regional/regional.html)
