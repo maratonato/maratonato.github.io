@@ -6,7 +6,7 @@ Este é o repositório oficial do site da Maratona de Programação no estado do
 
 Este projeto utiliza [Jekyll](http://jekyllrb.com/), que é um gerador de páginas estáticas em Ruby.
 
-<p align="center"><img src="images/screenshot-home.png" /></p>
+<p align="center"><img src="img/screenshot-home.png" /></p>
 
 <caption>Website MaratonaTO</caption>
 
@@ -16,7 +16,7 @@ Este projeto utiliza [Jekyll](http://jekyllrb.com/), que é um gerador de págin
 
 2. Primeiramente, fork o repositório em [MaratonaTO](https://github.com/maratonato/maratonato.github.io).
 
-<p align="center"><img src="images/fork.png" /></p>
+<p align="center"><img src="img/fork.png" /></p>
 
 3. Após isso, abra um terminal e instale o [Jekyll](http://jekyllrb.com/) com o seguinte comando:
 
