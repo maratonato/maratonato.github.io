@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+	<channel>
+		<title>@maratonato</title>
+		<description>Site da Maratona de Programação no Tocantins</description>
+		<link>http://maratonato.github.io</link>
+		<atom:link href="http://maratonato.github.io/feed.xml" rel="self" type="application/rss+xml" />
+		
+			<item>
+				<title>Hello World!</title>
+				
+				
+					<description>&lt;p&gt;Sejam bem vindos ao portal oficial da Maratona de Programação no estado do Tocantins.&lt;/p&gt;
+
+&lt;p&gt;O foco principal desse portal é reunir informações relevantes sobre as mais diversas competições de programação. Mais espeficicamente, serão postados aqui materiais de cursos, treinamentos e competições internas que venham a acontecer no estado do Tocantins.&lt;/p&gt;
+
+&lt;p&gt;Temos como principal objetivo fomentar a cultura de treinamento para competições de programação como a &lt;a href=&quot;http://olimpiada.ic.unicamp.br/&quot;&gt;OBI&lt;/a&gt;, a &lt;a href=&quot;http://maratona.ime.usp.br/&quot;&gt;Maratona de Programação&lt;/a&gt; e eventos locais como maratonas internas que serão realizadas noTocantins. Contamos com o espaço de comunicação uma página no &lt;a href=&quot;https://www.facebook.com/ACM-ICPC-at-Tocantins-483427145163330/?ref=hl&quot;&gt;Facebook&lt;/a&gt; e um grupo na ferramenta Slack lá todos poderão participar, tirar dúvidas e colaborarem com o projeto.
+O portal &lt;a href=&quot;http://maratonato.github.io&quot;&gt;Maratona TO&lt;/a&gt; é uma iniciativa dos alunos do curso de Ciência da Computação da Universidade Federal do Tocantins que tem como objetivo de centralizar as informações sobre eventos de competição de programação como a maratona de programação, olimpíadas brasileira de informática e maratona interna.&lt;/p&gt;
+
+&lt;p&gt;O Maratona TO é hospedado no &lt;a href=&quot;https://github.com/&quot;&gt;GitHub&lt;/a&gt; e construindo usando a plataforma Jekyll, que gera sites estáticos com conteúdo feito em Markdown. Estudando o básico dessas tecnologias você já está pronto para colaborar.&lt;/p&gt;
+
+&lt;h2 id=&quot;o-passo-a-passo-sugerido-para-contribuir--bem-simples&quot;&gt;O passo a passo sugerido para contribuir é bem simples:&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;Primeiramente faça um fork do repositório do &lt;a href=&quot;https://github.com/maratonato/maratonato.github.io&quot;&gt;Maratona TO&lt;/a&gt;, assim você pode ir fazendo suas alterações e mantendo controle delas no GitHub.&lt;/li&gt;
+  &lt;li&gt;Baixe o código fonte do site para o seu computador e faça as alterações que deseja. (Não se esqueça de rodar gerar o site localmente e ter certeza de que está tudo funcionando como esperado.)&lt;/li&gt;
+  &lt;li&gt;Ao terminar suas modificações e enviá-las para seu fork do projeto no GitHub, crie um pull request para o repositório do maratona e aguarde até que o mesmo seja aprovado. Assim que algum dos colaboradores com autorização para aceitar pull requests aprovar sua solicitação seu conteúdo estará ao vivo no site.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+				
+				<pubDate>Fri, 11 Dec 2015 00:00:00 +0000</pubDate>
+				<link>http://maratonato.github.io/misc/2015/12/11/welcome.html</link>
+				<guid isPermaLink="true">http://maratonato.github.io/misc/2015/12/11/welcome.html</guid>
+			</item>
+		
+	</channel>
+</rss>
