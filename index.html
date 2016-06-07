@@ -1,9 +1,464 @@
----
-layout: index
-section-type: index
-sitemap:
-  priority: 1.0
----
-<!--
-If you want to have a static message in your intro layout, disable the dynamic-typing in the _config.yml and write here your text
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <!--Metatags Facebook-->
+  <meta property="og:locale" content="pt_BR">
+
+  <meta property="og:url" content="http://maratonato.github.io">
+
+  <meta property="og:title" content="XXI Maratona de Programação">
+  <meta property="og:site_name" content="XXI Maratona de Programação">
+
+  <meta property="og:description" content="A Maratona de Programação é um evento da Sociedade Brasileira de Computação que existe desde o ano de 1996. A Maratona nasceu das competições regionais classificatórias para as finais mundiais do concurso de programação da ACM, o ACM International Collegiate Programming Contest, e é parte da regional sulamericana do concurso. Neste ano ocorre a 21a. edição da Maratona.
+Ela se destina a alunos de cursos de graduação e início de pós-graduação na área de Computação e afins (Ciência da Computação, Engenharia de Computação, Sistemas de Informação, Matemática, etc). A competição promove nos alunos a criatividade, a capacidade de trabalho em equipe, a busca de novas soluções de software e a habilidade de resolver problemas sob pressão. De ano para ano temos observado que as instituições e principalmente as grandes empresas da área têm valorizado os alunos que participam da Maratona.
+Várias universidades do Brasil desenvolvem concursos locais para escolher os melhores times para participar da Maratona de Programação. Estes times competem na Maratona (e portanto na regional sulamericana) de onde os melhores serão selecionados para participar das Finais Mundiais do evento. No ano de 2015, mais de 40 mil estudantes de mais de 2700 escolas de mais de 100 países competiram em regionais em todo o planeta, e apenas 128 (cerca de 1%) participarão das Finais Mundiais do evento, em Phukhet, Tailândia. Seis times brasileiros estarão presentes nas finais mundiais.
+Os times são compostos por três alunos, que tentarão resolver durante 5 horas o maior número possível dos 8 ou mais problemas que são entregues no início da competição. Estes alunos têm à sua disposição apenas um computador e material impresso (livros, listagens, manuais) para vencer a batalha contra o relógio e os problemas propostos.
+Os competidores do time devem colaborar para descobrir os problemas mais fáceis, projetar os testes, e construir as soluções que sejam aprovadas pelos juízes da competição. Alguns problemas requerem apenas compreensão, outros conhecimento de técnicas mais sofisticadas, e alguns podem ser realmente muito difíceis de serem resolvidos.
+O julgamento é estrito. No início da competição os competidores recebem os problemas que devem ser resolvidos. Nos enunciados dos problemas constam exemplos dos dados dos problemas, mas eles não têm acesso às instâncias testadas pelos juízes. A cada submissão incorreta de um problema (ou seja, que deu resposta incorreta a uma das instâncias dos juízes) é atribuída uma penalidade de tempo. O time que conseguir resolver o maior número de problemas (no menor tempo acumulado com as penalidades, caso haja empate) é declarado o vencedor.">
+  <meta property="og:image" content="img/folder.png">
+  <meta property="og:image:type" content="image/jpeg">
+  <meta property="og:image:width" content="570">
+  <meta property="og:image:height" content="312">
+  <!--Metatags Facebook-->
+
+  <title>XXI Maratona de Programação</title>
+  <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon" />
+  <!-- Bootstrap Core CSS -->
+  <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
+  <link rel="stylesheet" href="css/fakeLoader.css">
+
+  <!-- Custom Fonts -->
+  <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
+
+  <!-- Plugin CSS -->
+  <link rel="stylesheet" href="css/animate.min.css" type="text/css">
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="css/creative.css" type="text/css">
+
+  <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+  <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  <script>
+    (function(i, s, o, g, r, a, m) {
+      i['GoogleAnalyticsObject'] = r;
+      i[r] = i[r] || function() {
+        (i[r].q = i[r].q || []).push(arguments)
+      }, i[r].l = 1 * new Date();
+      a = s.createElement(o),
+        m = s.getElementsByTagName(o)[0];
+      a.async = 1;
+      a.src = g;
+      m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+
+    ga('create', 'UA-71312825-1', 'auto');
+    ga('send', 'pageview');
+  </script>
+</head>
+
+<body id="page-top" style="overflow-x: hidden;">
+  <div class="fakeloader"></div>
+  <nav id="mainNav" class="navbar navbar-default navbar-fixed-top">
+    <div class="container">
+      <!-- Brand and toggle get grouped for better mobile display -->
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand page-scroll" href="#page-top">XXI Maratona de Programação</a>
+      </div>
+
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <ul class="nav navbar-nav navbar-right">
+          <li><a class="page-scroll" href="#page-top" style="padding-left: 10px;padding-right: 10px;">Início</a></li>
+          <li><a class="page-scroll" href="#sobre" style="padding-left: 10px;padding-right: 10px;">Sobre</a></li>
+          <li><a class="page-scroll" href="#programacao" style="padding-left: 10px;padding-right: 10px;">Agenda</a></li>
+          <li><a class="page-scroll" href="#organizacao" style="padding-left: 10px;padding-right: 10px;">Organização</a></li>
+          <li><a class="page-scroll" href="#patrocinadores" style="padding-left: 10px;padding-right: 10px;">Patrocinadores</a></li>
+          <li><a class="page-scroll" href="#localizacao" style="padding-left: 10px;padding-right: 10px;">Localização</a></li>
+          <li><a class="page-scroll" href="#galeria" style="padding-left: 10px;padding-right: 10px;">Galeria</a></li>
+        </ul>
+      </div>
+      <!-- /.navbar-collapse -->
+    </div>
+    <!-- /.container-fluid -->
+  </nav>
+
+  <div id="spot-im-root"></div>
+  <script type="text/javascript">
+    ! function(t, o, p) {
+      function e() {
+        var t = o.createElement("script");
+        t.type = "text/javascript", t.async = !0, t.src = ("https:" == o.location.protocol ? "https" : "http") + ":" + p, o.body.appendChild(t)
+      }
+      t.spotId = "4c6011497861446fe2d06833f650d30a", t.spotName = "", t.allowDesktop = !0, t.allowMobile = !1, t.containerId = "spot-im-root", e()
+    }(window.SPOTIM = {}, document, "//www.spot.im/embed/scripts/launcher.js");
+  </script>
+
+  <header>
+    <div class="header-content" id="inicio">
+      <div class="header-content-inner">
+      </div>
+    </div>
+  </header>
+
+
+  <section class="bg-primary" id="sobre" style="min-height:100%;">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-lg-offset-2 text-center">
+          <h2 class="section-heading">XXI Maratona de Programação</h2>
+          <hr class="light">
+        </div>
+        <div class="row" style="margin-top: 25px;">
+          <div class="col-lg-6 col-md-12 col-sm-12 text-center"  style="top: 25px;">
+            <img width="90%" height="65%" src="img/acmfolder.png" />
+          </div>
+          <div class="col-lg-6 col-md-12 col-sm-12 text-center">
+            <p style="text-align: justify;">A Maratona de Programação é um evento da Sociedade Brasileira de Computação que existe desde o ano de 1996.
+              A Maratona nasceu das competições regionais classificatórias para as finais mundiais do concurso de programação da ACM, o ACM International Collegiate Programming Contest, e é parte da regional sulamericana do concurso. Neste ano ocorre a 21a. edição da Maratona.
+Ela se destina a alunos de cursos de graduação e início de pós-graduação na área de Computação e afins (Ciência da Computação, Engenharia de Computação, Sistemas de Informação, Matemática, etc). A competição promove nos alunos a criatividade, a capacidade de trabalho em equipe,
+a busca de novas soluções de software e a habilidade de resolver problemas sob pressão. De ano para ano temos observado que as instituições e principalmente as grandes empresas da área têm valorizado os alunos que participam da Maratona.
+</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="programacao">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-lg-offset-2 text-center">
+            <h2 class="section-heading">Agenda</h2><br>
+          <iframe src="https://calendar.google.com/calendar/embed?src=6075l499labtvnn3ippe68ff4o%40group.calendar.google.com&ctz=America/Fortaleza" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
+        </div>
+    </div>
+  </section>
+
+  <section id="organizacao" class="bg-primary">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-lg-offset-2 text-center">
+          <h2 class="section-heading">Organizadores</h2>
+          <hr class="light">
+        </div>
+      </div>
+
+    <div class="row">
+  <div class="col-lg-2 col-md-4 text-center">
+    <div class="service-box">
+      <a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4486175T1" target="_blank">
+        <img class="img-profile" src="img/professores/tanilson.jpg">
+      </a>
+      <h4>Tanilson Dias</h4>
+    </div>
+  </div>
+
+  <div class="col-lg-2 col-md-4 text-center">
+    <div class="service-box">
+      <a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4779652H6" target="_blank">
+        <img class="img-profile" src="img/professores/ary.jpg">
+      </a>
+      <h4>Ary Henrique</h4>
+    </div>
+  </div>
+
+  <div class="col-lg-2 col-md-4 text-center">
+    <div class="service-box">
+      <a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4235944J6" target="_blank">
+        <img class="img-profile" src="img/professores/glenda.jpg">
+      </a>
+      <h4>Glenda Botelho</h4>
+    </div>
+  </div>
+
+  <div class="col-lg-2 col-md-4 text-center">
+    <div class="service-box">
+      <a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4713530E4" target="_blank">
+        <img class="img-profile" src="img/professores/warley.jpg">
+      </a>
+      <h4>Warley Gramacho</h4>
+    </div>
+  </div>
+  <div class="col-lg-2 col-md-4 text-center">
+    <div class="service-box">
+      <a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4757695J9" target="_blank">
+        <img class="img-profile" src="img/professores/rafael.jpg">
+      </a>
+      <h4>Rafael Lima</h4>
+    </div>
+  </div>
+  <div class="col-lg-2 col-md-4 text-center">
+    <div class="service-box">
+      <a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4247747U2" target="_blank">
+        <img class="img-profile" src="img/professores/tiagoalmeida.jpg">
+      </a>
+      <h4>Tiago Almeida</h4>
+    </div>
+  </div>
+</div>
+
+<!-- ccaccomp
+<div class="row">
+  <div class="col-lg-8">
+    <br>
+    <h3 style="text-align:left;" class="section-heading">Centro Acadêmico de Ciência da Computação</h3>
+  </div>
+</div>
+<div class="row">
+  <div class="col-lg-2 col-md-4 text-center">
+    <div class="service-box">
+      <img class="img-profile" src="img/caccomp-profile/wandro.jpg">
+      <h4>Wandro Beckman</h4>
+      <span>
+        Presidente
+      </span>
+    </div>
+  </div>
+  <div class="col-lg-2 col-md-4 text-center">
+    <div class="service-box">
+      <a href="http://lattes.cnpq.br/3046219626135413"><img class="img-profile" src="img/caccomp-profile/baltazar.jpg"></a>
+      <h4>Thiago Baltazar</h4>
+      <span>
+        Vice Presidente
+      </span>
+    </div>
+  </div>
+  <div class="col-lg-2 col-md-4 text-center">
+    <div class="service-box">
+      <img class="img-profile" src="img/caccomp-profile/jhonatan.jpg">
+      <h4>Jhonatan Santyago</h4>
+      <span>
+        1° Secretário
+      </span>
+    </div>
+  </div>
+  <div class="col-lg-2 col-md-4 text-center">
+    <div class="service-box">
+      <img class="img-profile" src="img/caccomp-profile/adrianne.jpg">
+      <h4>Adrianne Alves</h4>
+      <span>
+        2° Secretária
+      </span>
+    </div>
+  </div>
+  <div class="col-lg-2 col-md-4 text-center">
+    <div class="service-box">
+      <img class="img-profile" src="img/caccomp-profile/thiago.jpg">
+      <h4>Thiago Parente</h4>
+      <span>
+        Diretor de Eventos
+      </span>
+    </div>
+  </div>
+  <div class="col-lg-2 col-md-4 text-center">
+    <div class="service-box">
+      <a href="https://br.linkedin.com/in/viniciusaires7" target="_blank">
+        <img class="img-profile" src="img/caccomp-profile/vinicius.jpg">
+      </a>
+      <h4>Vinícius Aires</h4>
+      <span>
+        Diretor de Assuntos Estudantis
+      </span>
+    </div>
+  </div>
+</div>
+<div class="row">
+  <div class="col-lg-2 col-md-4 text-center">
+    <div class="service-box">
+      <img class="img-profile" src="img/caccomp-profile/felipe.jpg">
+      <h4>Felipe Barbosa</h4>
+      <span>
+        Diretor de Ensino, Pesquisa e Extensão
+      </span>
+    </div>
+  </div>
+  <div class="col-lg-2 col-md-4 text-center">
+    <div class="service-box">
+      <img class="img-profile" src="img/caccomp-profile/murillo.jpg">
+      <h4>Murillo Vinicius</h4>
+      <span>
+          Diretor de Imprensa e Divulgação
+        </span>
+    </div>
+  </div>
+  <div class="col-lg-2 col-md-4 text-center">
+    <div class="service-box">
+      <img class="img-profile" src="img/caccomp-profile/idnilson.jpg">
+      <h4>Idnilson Nunes</h4>
+      <span>
+          Tesoureiro
+        </span>
+    </div>
+  </div>
+</div>
 -->
+<br>
+<div class="col-lg-12 text-center">
+  <h2 class="section-heading">Realização</h2>
+  <hr class="light">
+</div>
+<div class="row">
+  <div class="col-lg-3 col-md-4 text-center">
+    <div class="service-box">
+      <a href="http://uft.edu.br/" target="_blank"><img src="img/realizacao/uft.png"></a>
+    </div>
+  </div>
+  <div class="col-lg-2 col-md-4 text-center">
+    <div class="service-box">
+      <a href="http://uft.edu.br/comp/" target="_blank"><img src="img/realizacao/ccomp.png"></a>
+    </div>
+  </div>
+  <div class="col-lg-2 col-md-4 text-center">
+    <div class="service-box">
+      <a href="https://www.facebook.com/caccompuft" target="_blank"><img src="img/realizacao/caccomp.png"></a>
+    </div>
+  </div>
+  <div class="col-lg-2 col-md-4 text-center">
+    <div class="service-box">
+      <a href="http://www.sbc.org.br" target="_blank"><img src="img/realizacao/sbc.png"></a>
+    </div>
+  </div>
+  <div class="col-lg-2 col-md-4 text-center">
+    <div class="service-box">
+      <a href="https://www.icpc.baylor.edu" target="_blank"><img src="img/realizacao/acm.png"></a>
+    </div>
+  </div>
+</div>
+</div>
+  </section>
+    </div>
+  </section>
+
+
+
+  <section id="patrocinadores">
+
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 text-center">
+          <h2 class="section-heading">Patrocinadores</h2>
+          <hr class="primary">
+        </div>
+      </div>
+    </div>
+
+    <div class="container" id="patrocinadores_content">
+      <div class="container">
+      <div class="row">
+        <div class="col-lg-2 col-md-4 text-center">
+          <div class="service-box">
+            <a href="http://www.apctecnologia.com.br/" target="_blank"><img src="img/patrocinadores/ibm.png"></a>
+          </div>
+        </div>
+        <div class="col-lg-2 col-md-4 text-center">
+          <div class="service-box">
+            <a href="http://nmeios.com.br/" target="_blank"><img src="img/patrocinadores/sponsor.png"></a>
+          </div>
+        </div>
+        <div class="col-lg-2 col-md-4 text-center">
+          <div class="service-box">
+            <a href="http://www.genetec.com/br/" target="_blank"><img src="img/patrocinadores/sponsor.png"></a>
+          </div>
+        </div>
+        <div class="col-lg-2 col-md-4 text-center">
+          <div class="service-box">
+            <a href="http://www.furukawa.com.br/br/" target="_blank"><img src="img/patrocinadores/sponsor.png"></a>
+          </div>
+        </div>
+        <div class="col-lg-2 col-md-4 text-center">
+          <div class="service-box">
+            <a href="http://horustelecom.com.br/" target="_blank"><img src="img/patrocinadores/sponsor.png"></a>
+          </div>
+        </div>
+        <div class="col-lg-2 col-md-4 text-center">
+          <div class="service-box">
+            <a href="http://www.panasonic.com/br/" target="_blank"><img src="img/patrocinadores/sponsor.png"></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  </section>
+
+  <section id="localizacao" class="bg-primary">
+    <div class="container">
+      <div class="col-lg-12 text-center">
+        <h2 class="section-heading">Locais do Evento</h2>
+        <hr class="light">
+      </div>
+    </div>
+    <div class="container" id="localizacao_content"><div class="container text-center" id="localizacao_content">
+
+      <div class="col-lg-6 col-md-6 col-sm-12">
+        <div id="title" class="text-center">
+          <h3>Maratonas Internas e Treinamentos: Campus Universitário UFT Palmas - Bloco III</h3>
+        </div>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3486.11453778863!2d-48.361823!3d-10.17711999999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMTDCsDEwJzM3LjYiUyA0OMKwMjEnNDIuNiJX!5e1!3m2!1spt-BR!2sus!4v1443642660098" width="100%" height="500px" frameborder="0" style="border:0" allowfullscreen=""></iframe>
+      </div>
+  <div class="col-lg-6 col-md-6 col-sm-12">
+    <div id="title" class="text-center">
+      <h3>Fase Regional da XXI Maratona de Programação: Anfiteatro</h3>
+    </div>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d990.0473501975586!2d-48.362403963509024!3d-10.179460428972636!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMTDCsDEwJzQ2LjEiUyA0OMKwMjEnNDIuMyJX!5e1!3m2!1sen!2sbr!4v1465275608506" width="100%" height="500px" frameborder="0" style="border:0" allowfullscreen></iframe>
+  </div>
+</div>
+</div>
+  </section>
+
+  <section id="galeria">
+    <div class="container">
+      <div class="col-lg-12 text-center">
+        <h2 class="section-heading">Galeria de Fotos</h2>
+        <hr class="primary">
+      </div>
+    </div>
+    <div class="container text-center" id="galeria_content">
+      <!-- Place this tag in your head or just before your close body tag. -->
+    <script src="https://apis.google.com/js/platform.js" async defer></script>
+
+    <!-- Place this tag where you want the widget to render. -->
+    <div class="g-page" data-width="411" data-href="https://plus.google.com/101039437490365527276" data-rel="publisher"></div>
+</div>
+  </section>
+
+  <!-- jQuery -->
+  <script src="js/jquery.js"></script>
+  <!-- Bootstrap Core JavaScript -->
+  <script src="js/bootstrap.min.js"></script>
+  <!-- Plugin JavaScript -->
+  <script src="js/jquery.easing.min.js"></script>
+  <script src="js/jquery.fittext.js"></script>
+  <script src="js/wow.min.js"></script>
+  <!-- Custom Theme JavaScript -->
+  <script src="js/creative.js"></script>
+  <script src="js/fakeLoader.min.js"></script>
+  <script>
+    $(document).ready(function() {
+      $(".fakeloader").fakeLoader({
+        timeToHide: 3000,
+        bgColor: "#73CCD7",
+        spinner: "spinner7"
+      });
+    });
+  </script>
+</body>
+
+</html>
